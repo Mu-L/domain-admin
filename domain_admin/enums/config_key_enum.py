@@ -3,6 +3,7 @@
 @File    : config_key_enum.py
 @Date    : 2023-06-16
 """
+from __future__ import print_function, unicode_literals, absolute_import, division
 
 
 class ConfigKeyEnum(object):
@@ -36,3 +37,6 @@ class ConfigKeyEnum(object):
 
     # Token有效期（天）
     TOKEN_EXPIRE_DAYS = 'token_expire_days'
+
+    # prometheus_key
+    PROMETHEUS_KEY = 'prometheus_key'
